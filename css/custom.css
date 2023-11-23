@@ -1,0 +1,185 @@
+
+body{
+    background-color: #fff;
+    width: 100%;
+}
+
+header img{
+    width: 110PX;
+    margin: 25px 60px;
+}
+
+header{
+    vertical-align: middle;
+    background-color: transparent;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(#383838, 15%, transparent);
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+.vbannrint{
+    width: 100%;
+}
+.vbannrint img{
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+}
+header ul li{
+    font-family: Helvetica,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffffff;
+    display: inline-block;
+    padding: 25px 45px;
+    cursor: pointer;
+}
+
+header ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+header ul li:hover{
+    color: #030303;
+    background-color: #ffffff80;
+}
+
+input.boton_suscribete {
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 0 !important;
+}
+
+input.boton_suscribete:hover{
+    color: #000;
+    background-color: #ffffff80;
+}
+
+input.campo_buscar {
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background-color: transparent;
+    color: #fff;
+}
+
+input.campo_buscar{
+    background-color: #fff;
+    color: #000;
+}
+
+.boton-admin{
+    z-index: 1000;
+    color: #fff;
+    background-color: #ffffff80;
+    width: 20px;
+    position: relative;
+    margin: 25px 34px;
+}
+
+.parallax {
+  
+    /* Set a specific height */
+    min-height: 400px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.videoslider{
+    width: 100%;
+    height: auto;
+}
+
+.img-producto{
+    width: 500px;
+    height: 500px;
+    size: cover;
+}
+
+.clase{
+    margin: 40px;
+    padding: 25px;
+}
+
+.producto{
+    margin: 0px;
+    padding: 25px;
+}
+
+.redes{
+    text-align: center;
+}
+
+.news-correo{
+    text-align: center;
+}
+
+.pn{
+    text-align: center;
+    background-color: #d4d4d4;
+}
+
+.pn a{
+    text-align: justify;
+    text-decoration: none;
+    color: #000;
+    margin: 2px 10px 20px;
+}
+
+.cont{
+    border-top: #eeeeee 2px solid;
+}
+
+.numb{
+    color: #fff;
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+.contgen {
+    display: none;
+}
+.mnustck{
+    background: #333 !important;
+}
+.text-lat.active {
+    display: block;
+}
+
+footer{
+    background-color: #838383;
+    text-decoration: none;
+}
+a.ver-mas {
+    display: table;
+    margin: 13px auto 25px;
+    background-color: #505050;
+    width: auto;
+    padding: 0px 20px !important;
+    height: 31px;
+    line-height: 27px;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 200;
+    cursor: pointer;
+}

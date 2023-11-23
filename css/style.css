@@ -1,0 +1,139 @@
+
+body{
+    background-color: #fff;
+    width: 100%;
+}
+
+header img{
+    width: 110PX;
+    margin: 25px 60px;
+}
+
+header{
+    background-color: transparent;
+    z-index: 100;
+    width: 100%;
+    background:#383838;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    color: #ffffff;
+}
+.vbannrint{
+    width: 100%;
+}
+.vbannrint img{
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+}
+header ul li{
+    font-family: Helvetica,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffffff;
+    display: inline-block;
+    padding: 25px 45px;
+    cursor: pointer;
+}
+
+header ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+header ul li:hover{
+    color: #030303;
+    background-color: #ffffff80;
+}
+
+input.boton_suscribete {
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 19px;
+}
+.selec{
+    display: inline;
+}
+
+.btnselect{
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.btnselect option{
+    color: #fff;
+    background-color: #383838;
+}
+.col-md-3 {
+    padding-top: 23px;
+}
+
+.col-md-7 {
+    padding-top: 23px;
+} 
+
+.col-md-4.f {
+    margin: 25px;
+}
+section.col-md-6.tabla {
+    margin: 50px;
+}
+.listar{
+    background-color: #7c7c7c;
+}
+form#formularioHombre {
+    display: inline-grid;
+    background-color:#383838;
+    padding: 25px;
+    color: #fff;
+}
+form#formularioMujer {
+    display: inline-grid;
+    background-color:#383838;
+    padding: 25px;
+    color: #fff;
+}
+form#formularioOutlet {
+    display: inline-grid;
+    background-color:#383838;
+    padding: 25px;
+    color: #fff;
+}
+input.cargar-img {
+    color: #fef3f3;
+    background-color: darkgrey;
+    border-radius: 10px;
+}
+a.eliminar {
+    text-decoration: none;
+    color: #fff;
+    background-color: #b3b3b3;
+    font-size: medium;
+    padding: 4px 10px;
+}
+a.actualizar {
+    text-decoration: none;
+    color: #fff;
+    background-color: #b3b3b3;
+    font-size: medium;
+    padding: 4px 10px;
+}
+input[type="submit"] {
+    text-decoration: none;
+    color: #fff;
+    background-color: #b3b3b3;
+    font-size: medium;
+    padding: 4px 10px;
+}
